@@ -29,7 +29,9 @@ public class AppPackageNamePreferenceController extends AppInfoPreferenceControl
 
     @Override
     public CharSequence getSummary() {
+        return mParent.getPackageInfo().packageName;
         return mContext.getString(R.string.packagename_text,
                 BidiFormatter.getInstance().unicodeWrap(mParent.getPackageInfo().packageName));
+
     }
 }
