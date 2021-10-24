@@ -111,4 +111,8 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Octavi Lab -->
+    <string name="octavi_lab_dash_title">Octavi Lab</string>
+    <string name="octavi_lab_summary">Customization Laboratory</string>
 </resources>
