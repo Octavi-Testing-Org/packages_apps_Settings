@@ -17,7 +17,6 @@
 package com.android.settings.applications.appinfo;
 
 import android.content.Context;
-import android.text.BidiFormatter;
 
 import com.android.settings.R;
 
@@ -29,9 +28,6 @@ public class AppPackageNamePreferenceController extends AppInfoPreferenceControl
 
     @Override
     public CharSequence getSummary() {
-        return mParent.getPackageInfo().packageName;
-        return mContext.getString(R.string.packagename_text,
-                BidiFormatter.getInstance().unicodeWrap(mParent.getPackageInfo().packageName));
-
+        return mContext.getString(R.string.package_text, mParent.getPackageInfo().packageName);
     }
 }
