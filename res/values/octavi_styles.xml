@@ -23,7 +23,6 @@
 
 <!-- This file only contains custom attribute and style definition for preferences -->
 <!-- Things unrelated to preference framework UI customization should go to other styles files -->
-<resources>
     <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.SettingsBase">
         <item name="customPreferenceStyle">@style/CustomPreference</item>
     </style>
